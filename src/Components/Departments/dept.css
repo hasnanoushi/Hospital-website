@@ -1,0 +1,6 @@
+.dept-img{height: 500ox;width: 400px;border-radius: 200px;margin-top: 30px;}
+.spec{margin-left: 110px;margin-bottom: 20px;margin-top: 15px;}
+.deptflex{display: flex;flex-direction: row;flex-wrap: wrap;margin-left: 30px;align-items: center;margin-top: 30px;}
+.flexItem{border: 1px solid white;margin: 20px;box-shadow: 2px 2px 10px 10px wheat;}
+.depttext{padding-left: 40px;}
+.hi{margin-top: 30px;}
