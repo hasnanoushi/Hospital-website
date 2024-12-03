@@ -1,8 +1,16 @@
 .App {
   text-align: center;
-
 }
-.body{margin: 10px;}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.body {
+  margin: 0;
+}
 
 .App-logo {
   height: 40vmin;

@@ -1,4 +1,30 @@
-.ul{list-style: none;margin-top: 20px;}
-.foot{background-color: wheat;margin-top: 20px;}
+.ul {
+  list-style: none;
+  margin-top: 20px;
+}
+.foot {
+  background-color: wheat;
+  margin-top: 20px;
+}
 
-.ula{text-decoration: none;color: #000;}
+@media (max-width: 768px) {
+  .rowstyle {
+    margin-left: -105px;
+  }
+  .listyle {
+    margin-right: -30px;
+  }
+  .size {
+    width: 10px;
+  }
+  .fontli {
+    font-size: medium;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.ula {
+  text-decoration: none;
+  color: #000;
+}

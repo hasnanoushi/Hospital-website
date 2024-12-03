@@ -1,4 +1,29 @@
-.adress{background-color: skyblue;}
-.ull{list-style: none;margin: 20px;padding: 20px;font-size: 30px;}
-.img{height: 40px;width: 30px;}
-.map{height:600px ;}
+.cont {
+  height: 240px;
+  width: 240px;
+  margin: 40px;
+  border-radius: 120px;
+}
+.img {
+  height: 40px;
+  width: 30px;
+}
+.map {
+  height: 600px;
+  width: 1700px;
+  cursor: pointer;
+}
+.divflex {
+  font-weight: "200";
+  font-size: 25px;
+  margin: 30px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .map {
+    height: 400px;
+    cursor: pointer;
+    width: 440px;
+  }
+}
